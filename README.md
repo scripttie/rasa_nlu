@@ -16,7 +16,8 @@ And returning structured data like:
   intent: search_restaurant
   entities: 
     - cuisine : Mexican
-    - location : center
+    - location : center  
+    - serving : medium  
 ```
 
 Rasa NLU is primarily used to build chatbots and voice apps, where this is called intent classification and entity extraction.
